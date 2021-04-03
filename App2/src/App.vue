@@ -3,16 +3,18 @@
     <header><h1>My Friends</h1></header>
     <ul>
       <friend-contact
-      name= "Andrea Ayala"
-      phone-number = "7225-3923"
-      email-address= "alfnfn@zkvmv"
-      is-favorite="1" >
+        name="Andrea Ayala"
+        phone-number="7225-3923"
+        email-address="alfnfn@zkvmv"
+        is-favorite="1"
+      >
       </friend-contact>
       <friend-contact
-      name= "Silvia Ayala"
-      phone-number = "7285-4123"
-      email-address= "alfnfn@zdjfnksv"
-      is-favorite="0">
+        name="Silvia Ayala"
+        phone-number="7285-4123"
+        email-address="alfnfn@zdjfnksv"
+        is-favorite="0"
+      >
       </friend-contact>
     </ul>
   </section>
@@ -44,7 +46,7 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
 * {
   box-sizing: border-box;
 }
