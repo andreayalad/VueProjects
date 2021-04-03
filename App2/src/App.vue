@@ -5,12 +5,14 @@
       <friend-contact
       name= "Andrea Ayala"
       phone-number = "7225-3923"
-      email-address= "alfnfn@zkvmv" >
+      email-address= "alfnfn@zkvmv"
+      is-favorite="1" >
       </friend-contact>
       <friend-contact
       name= "Silvia Ayala"
       phone-number = "7285-4123"
-      email-address= "alfnfn@zdjfnksv">
+      email-address= "alfnfn@zdjfnksv"
+      is-favorite="0">
       </friend-contact>
     </ul>
   </section>
