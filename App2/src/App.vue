@@ -3,17 +3,12 @@
     <header><h1>My Friends</h1></header>
     <ul>
       <friend-contact
-        name="Andrea Ayala"
-        phone-number="7225-3923"
-        email-address="alfnfn@zkvmv"
-        is-favorite="1"
-      >
-      </friend-contact>
-      <friend-contact
-        name="Silvia Ayala"
-        phone-number="7285-4123"
-        email-address="alfnfn@zdjfnksv"
-        is-favorite="0"
+        v-for="friend in friends"
+        :key="friend.id"
+        :name="friend.name"
+        :phone-number="friend.phone"
+        :email-address="friend.email"
+        :is-favorite="true"
       >
       </friend-contact>
     </ul>
